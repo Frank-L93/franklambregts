@@ -3,19 +3,19 @@
 @section('title', 'Resume')
 
 @section('content')
-<main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+<main class="max-w-7xl mx-auto p-6 lg:p-8">
     <div class="text-2xl font-semibold mx-auto text-yellow-300 text-center">Resume</div>
     <div x-data="{ year: 2023}">
 
-      <div class="relative wrap overflow-hidden p-10">
+      <div class="relative wrap p-10">
         <div
           class="border-b-4 absolute border-opacity-20 border-gray-700 w-full"
           style="height: 50%"
         ></div>
-        <div class="flex justify-between items-center w-full upper-timeline">
+        <div class="flex justify-between items-center upper-timeline">
           <div class="order-1 absolute w-1/12"></div>
           <div
-            @click="year = 2016"
+            x-on:click="year = 2016"
             class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-12 h-12 hover:bg-gray-500 rounded-full"
           >
             <h1 class="mx-auto font-semibold text-md text-white">
@@ -23,53 +23,53 @@
           </div>
           <div class="order-2 absolute w-1/6"></div>
           <div
-            @click="year = 2017"
+            x-on:click="year = 2017"
             class="z-20 flex items-center order-2 bg-gray-800 shadow-xl w-12 h-12 hover:bg-gray-500 rounded-full"
           >
             <h1 class="mx-auto font-semibold text-lg text-white">2017</h1>
           </div>
           <div class="order-3 absolute w-3/12"></div>
           <div
-            @click="year = 2018"
+            x-on:click="year = 2018"
             class="z-20 flex items-center order-3 bg-gray-800 shadow-xl w-12 h-12 hover:bg-gray-500 rounded-full"
           >
             <h1 class="mx-auto font-semibold text-lg text-white">2018</h1>
           </div>
           <div class="order-4 absolute w-1/3"></div>
           <div
-            @click="year = 2019"
+            x-on:click="year = 2019"
             class="z-20 flex items-center order-4 bg-gray-800 shadow-xl w-12 h-12 hover:bg-gray-500 rounded-full"
           >
             <h1 class="mx-auto font-semibold text-lg text-white">2019</h1>
           </div>
           <div class="order-5 absolute w-5/12"></div>
           <div
-            @click="year = 2020"
+            x-on:click="year = 2020"
             class="z-20 flex items-center order-5 bg-gray-800 shadow-xl w-12 h-12 hover:bg-gray-500 rounded-full"
           >
             <h1 class="mx-auto font-semibold text-lg text-white">2020</h1>
           </div>
           <div class="order-6 absolute w-6/12"></div>
           <div
-            @click="year = 2021"
+            x-on:click="year = 2021"
             class="z-20 flex items-center order-6 bg-gray-800 shadow-xl w-12 h-12 hover:bg-gray-500 rounded-full"
           >
             <h1 class="mx-auto font-semibold text-lg text-white">2021</h1>
           </div>
           <div class="order-7 absolute w-7/12"></div>
           <div
-            @click="year = 2022"
+            x-on:click="year = 2022"
             class="z-20 flex items-center order-7 bg-gray-800 shadow-xl w-12 h-12 hover:bg-gray-500 rounded-full"
           >
             <h1 class="mx-auto font-semibold text-lg text-white">2022</h1>
           </div>
-          <div @click="year = 2023"
+          <div x-on:click="year = 2023"
             class="z-20 flex items-center order-7 bg-gray-800 shadow-xl w-12 h-12 hover:bg-gray-500 rounded-full">
             <h1 class="mx-auto font-semibold text-lg text-white">2023</h1>
           </div>
         </div>
       </div>
-      <div x-show="year === 2023" class="relative bg-white dark:bg-gray-700 rounded-lg shadow-xl w-4/12 px-4 py-4 mx-auto">
+      <div x-show="year === 2023" class="relative bg-white dark:bg-gray-700 rounded-lg shadow-xl w-6/12 px-4 py-4 mx-auto">
         <h3 class="mb-3 font-bold text-gray-800 text-xl">2023</h3>
         <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
         <ol class="list-disc list-inside">
@@ -83,7 +83,7 @@
       </div>
       <div
         x-show="year === 2022"
-        class="relative bg-white dark:bg-gray-700  rounded-lg shadow-xl w-4/12 px-4 py-4 mx-auto"
+        class="relative bg-white dark:bg-gray-700  rounded-lg shadow-xl w-6/12 px-4 py-4 mx-auto"
       >
         <h3 class="mb-3 font-bold text-gray-800 text-xl">2022</h3>
         <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
@@ -106,7 +106,7 @@
       </div>
       <div
         x-show="year === 2021"
-        class="relative bg-white dark:bg-gray-700  rounded-lg shadow-xl w-4/12 px-4 py-4 mx-auto"
+        class="relative bg-white dark:bg-gray-700  rounded-lg shadow-xl w-6/12 px-4 py-4 mx-auto"
       >
         <h3 class="mb-3 font-bold text-gray-800 text-xl">2021</h3>
         <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
@@ -135,7 +135,7 @@
       </div>
       <div
         x-show="year === 2020"
-        class="relative bg-white dark:bg-gray-700  rounded-lg shadow-xl w-4/12 px-4 py-4 mx-auto"
+        class="relative bg-white dark:bg-gray-700  rounded-lg shadow-xl w-6/12 px-4 py-4 mx-auto"
       >
         <h3 class="mb-3 font-bold text-gray-800 text-xl">2020</h3>
         <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
@@ -172,7 +172,7 @@
       </div>
       <div
         x-show="year === 2019"
-        class="relative bg-white dark:bg-gray-700 rounded-lg shadow-xl w-4/12 px-4 py-4 mx-auto"
+        class="relative bg-white dark:bg-gray-700 rounded-lg shadow-xl w-6/12 px-4 py-4 mx-auto"
       >
         <h3 class="mb-3 font-bold text-gray-800 text-xl">2019</h3>
         <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
@@ -218,7 +218,7 @@
       </div>
       <div
         x-show="year === 2018"
-        class="relative bg-white dark:bg-gray-700  rounded-lg shadow-xl w-4/12 px-4 py-4 mx-auto"
+        class="relative bg-white dark:bg-gray-700  rounded-lg shadow-xl w-6/12 px-4 py-4 mx-auto"
       >
         <h3 class="mb-3 font-bold text-gray-800 text-xl">2018</h3>
         <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
@@ -246,7 +246,7 @@
       </div>
       <div
         x-show="year === 2017"
-        class="relative bg-white dark:bg-gray-700  rounded-lg shadow-xl w-4/12 px-4 py-4 mx-auto"
+        class="relative bg-white dark:bg-gray-700  rounded-lg shadow-xl w-6/12 px-4 py-4 mx-auto"
       >
         <h3 class="mb-3 font-bold text-gray-800 text-xl">2017</h3>
         <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
@@ -272,11 +272,11 @@
       </div>
       <div
         x-show="year === 2016"
-        class="relative bg-white dark:bg-gray-700 rounded-lg shadow-xl w-4/12 px-4 py-4 mx-auto"
+        class="relative bg-white dark:bg-gray-700 rounded-lg shadow-xl w-6/12 px-4 py-4 mx-auto"
       >
         <h3 class="mb-3 font-bold text-gray-800 text-xl">2016 & before</h3>
         <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
-        <ol>
+        <ol class="list-disc list-inside">
           <li>Obtained Bachelor's Degree in Fiscal Economics at Erasmus University Rotterdam (2015)</li>
           <li>Graduated from Markland College (VWO, <i>Pre-University Education</i>) (2012)</li>
           <li>Started as Competition Leader (Seniors) @ <a

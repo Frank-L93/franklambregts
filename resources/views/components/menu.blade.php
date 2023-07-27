@@ -28,7 +28,7 @@
               ></a></li>
         </ul>
     </div>
-    <div class="flex items-center space-x-5 rtl:space-x-reverse" x-data="{open: false}">
+    <div class="flex z-30 items-center space-x-5 rtl:space-x-reverse" x-data="{open: false}">
 
         <div class="inline-flex md:hidden">
           <button
@@ -62,25 +62,25 @@
           <a
             @click="open = !open"
             href="/projects"
-            class="block text-gray-800 hover:text-gray-900 bg-red-600 bg-opacity-50 rounded-xl p-3 hover:bg-opacity-80"
+            class="block text-gray-800 hover:text-gray-900 bg-red-600 rounded-xl p-3 hover:bg-opacity-80"
           >Projects</a>
 
           <a
             @click="open = !open"
             href="/resume"
-            class="block text-gray-800 hover:text-gray-900 bg-yellow-500 bg-opacity-50 rounded-xl p-3 hover:bg-opacity-80"
+            class="block text-gray-800 hover:text-gray-900 bg-yellow-500 rounded-xl p-3 hover:bg-opacity-80"
           >Resume</a>
 
           <a
             @click="open = !open"
             href="/chess"
-            class="block text-gray-800 hover:text-gray-900 bg-green-300 bg-opacity-50 rounded-xl p-3 hover:bg-opacity-80"
+            class="block text-gray-800 hover:text-gray-900 bg-green-300 rounded-xl p-3 hover:bg-opacity-80"
           >Chess</a>
 
           <a
             @click="open = !open"
             href="/deepdives"
-            class="block text-gray-800 hover:text-gray-900 bg-blue-500 bg-opacity-50 rounded-xl p-3 hover:bg-opacity-80"
+            class="block text-gray-800 hover:text-gray-900 bg-blue-500 rounded-xl p-3 hover:bg-opacity-80"
           > DeepDives </a>
 
         </div>

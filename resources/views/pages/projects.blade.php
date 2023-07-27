@@ -2,8 +2,8 @@
 
 @section('title', 'Projects')
 
-@section('content')<div>
-    <main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+@section('content')
+<main class="max-w-7xl mx-auto p-6 lg:p-8">
         <div class="text-2xl font-semibold mx-auto text-red-300 text-center">Projects</div>
     <div class="grid grid-cols-1 sm:grid-cols-3 mt-16 sm:gap-10">
       <a
@@ -66,5 +66,4 @@
     </a>
     </div>
   </main>
-</div>
 @endsection
