@@ -6,7 +6,7 @@
 <main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
     <div class="text-2xl font-semibold mx-auto text-blue-300 text-center">DeepDives</div>
     <div class="grid grid-cols-1 sm:grid-cols-3 mt-16 sm:gap-10">
-      <div class="rounded-3xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-white dark:bg-ternary-dark">
+      <div class="rounded-3xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-white dark:bg-gray-700 dark:bg-ternary-dark">
         <div class="text-center px-4 py-6">
           <p class="text-2xl text-red-500 font-semibold mb-2">
             KiNG
@@ -21,7 +21,7 @@
           </span>
         </div>
       </div>
-      <div class="rounded-3xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-white dark:bg-ternary-dark">
+      <div class="rounded-3xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-white dark:bg-gray-700 dark:bg-ternary-dark">
         <div class="text-center px-4 py-6">
           <p class="text-2xl text-red-500 font-semibold mb-2">Monteban</p>
 
@@ -46,7 +46,7 @@
           </span>
         </div>
       </div>
-      <div class="rounded-3xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-white dark:bg-ternary-dark">
+      <div class="rounded-3xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-white dark:bg-gray-700 dark:bg-ternary-dark">
         <div class="text-center px-4 py-6">
           <p class="text-2xl text-red-500 font-semibold mb-2">Laravel</p>
         </div>
@@ -57,7 +57,7 @@
           </ol>
         </span>
       </div>
-      <div class="rounded-3xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-white dark:bg-ternary-dark overflow-auto object-fill">
+      <div class="rounded-3xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-white dark:bg-gray-700 dark:bg-ternary-dark overflow-auto object-fill">
       <div class="text-center px-4 py-6">
         <p class="text-2xl text-red-500 font-semibold mb-2">LiChess Study</p>
       </div>
@@ -68,7 +68,7 @@
             ></iframe>
     </div>
 
-<div class="rounded-3xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-white dark:bg-ternary-dark">
+<div class="rounded-3xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-white dark:bg-gray-700 dark:bg-ternary-dark">
       <div class="text-center px-4 py-6">
         <p class="text-2xl text-red-500 font-semibold mb-2">LiChess Study</p>
       </div>

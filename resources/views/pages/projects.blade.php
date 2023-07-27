@@ -9,7 +9,7 @@
       <a
         href="https://github.com/Frank-L93/KeizerPHP"
         target="_blank"
-        class="rounded-3xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-white dark:bg-ternary-dark"
+        class="rounded-3xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-white dark:bg-gray-700 dark:bg-ternary-dark"
       >
         <div>
           <img
@@ -29,7 +29,7 @@
       <a
         href="https://github.com/Frank-L93/hoorbt"
         target="_blank"
-        class="rounded-3xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-white dark:bg-ternary-dark"
+        class="rounded-3xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-white dark:bg-gray-700 dark:bg-ternary-dark"
       >
         <div>
           <img
@@ -48,7 +48,7 @@
       </a>
       <a
         href="/deepdives"
-        class="rounded-3xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-white dark:bg-ternary-dark"
+        class="rounded-3xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-white dark:bg-gray-700 dark:bg-ternary-dark"
       >
         <div>
           <img

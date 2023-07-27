@@ -69,7 +69,7 @@
           </div>
         </div>
       </div>
-      <div x-show="year === 2023" class="relative bg-white rounded-lg shadow-xl w-4/12 px-4 py-4 mx-auto">
+      <div x-show="year === 2023" class="relative bg-white dark:bg-gray-700 rounded-lg shadow-xl w-4/12 px-4 py-4 mx-auto">
         <h3 class="mb-3 font-bold text-gray-800 text-xl">2023</h3>
         <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
         <ol class="list-disc list-inside">
@@ -83,7 +83,7 @@
       </div>
       <div
         x-show="year === 2022"
-        class="relative bg-white rounded-lg shadow-xl w-4/12 px-4 py-4 mx-auto"
+        class="relative bg-white dark:bg-gray-700  rounded-lg shadow-xl w-4/12 px-4 py-4 mx-auto"
       >
         <h3 class="mb-3 font-bold text-gray-800 text-xl">2022</h3>
         <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
@@ -106,7 +106,7 @@
       </div>
       <div
         x-show="year === 2021"
-        class="relative bg-white rounded-lg shadow-xl w-4/12 px-4 py-4 mx-auto"
+        class="relative bg-white dark:bg-gray-700  rounded-lg shadow-xl w-4/12 px-4 py-4 mx-auto"
       >
         <h3 class="mb-3 font-bold text-gray-800 text-xl">2021</h3>
         <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
@@ -135,7 +135,7 @@
       </div>
       <div
         x-show="year === 2020"
-        class="relative bg-white rounded-lg shadow-xl w-4/12 px-4 py-4 mx-auto"
+        class="relative bg-white dark:bg-gray-700  rounded-lg shadow-xl w-4/12 px-4 py-4 mx-auto"
       >
         <h3 class="mb-3 font-bold text-gray-800 text-xl">2020</h3>
         <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
@@ -172,7 +172,7 @@
       </div>
       <div
         x-show="year === 2019"
-        class="relative bg-white rounded-lg shadow-xl w-4/12 px-4 py-4 mx-auto"
+        class="relative bg-white dark:bg-gray-700 rounded-lg shadow-xl w-4/12 px-4 py-4 mx-auto"
       >
         <h3 class="mb-3 font-bold text-gray-800 text-xl">2019</h3>
         <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
@@ -218,7 +218,7 @@
       </div>
       <div
         x-show="year === 2018"
-        class="relative bg-white rounded-lg shadow-xl w-4/12 px-4 py-4 mx-auto"
+        class="relative bg-white dark:bg-gray-700  rounded-lg shadow-xl w-4/12 px-4 py-4 mx-auto"
       >
         <h3 class="mb-3 font-bold text-gray-800 text-xl">2018</h3>
         <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
@@ -246,7 +246,7 @@
       </div>
       <div
         x-show="year === 2017"
-        class="relative bg-white rounded-lg shadow-xl w-4/12 px-4 py-4 mx-auto"
+        class="relative bg-white dark:bg-gray-700  rounded-lg shadow-xl w-4/12 px-4 py-4 mx-auto"
       >
         <h3 class="mb-3 font-bold text-gray-800 text-xl">2017</h3>
         <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
@@ -272,7 +272,7 @@
       </div>
       <div
         x-show="year === 2016"
-        class="relative bg-white rounded-lg shadow-xl w-4/12 px-4 py-4 mx-auto"
+        class="relative bg-white dark:bg-gray-700 rounded-lg shadow-xl w-4/12 px-4 py-4 mx-auto"
       >
         <h3 class="mb-3 font-bold text-gray-800 text-xl">2016 & before</h3>
         <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">

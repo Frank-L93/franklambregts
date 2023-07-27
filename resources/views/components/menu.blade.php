@@ -1,4 +1,4 @@
-<header class="z-30 w-full px-2 py-4 bg-white sm:px-4"><div class="container flex items-center justify-between mx-auto">
+<header class="z-30 w-full px-2 py-4 bg-white dark:bg-gray-900 sm:px-4"><div class="container flex items-center justify-between mx-auto">
     <a
         href="/"
         class="flex text-xl items-center"
