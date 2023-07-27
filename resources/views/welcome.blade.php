@@ -3,6 +3,9 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Frank Lambregts">
+        <meta name="description" content="Personal website of Frank Lambregts, 30 years old, SAP Consultant, Chess Player">
+        <meta name="keywords" content="Frank, Lambregts, Frank Lambregts, SAP, Consultant, PHP, Laravel, Chess, SD, Finance">
         <title>@yield('title', 'Home') - Frank Lambregts</title>
       @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
