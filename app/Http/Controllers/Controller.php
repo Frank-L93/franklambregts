@@ -9,11 +9,13 @@ use Illuminate\Routing\Controller as BaseController;
 class Controller extends BaseController
 {
     use AuthorizesRequests, ValidatesRequests;
-
-    public function data()
+    public const SEPARATOR = PHP_EOL;
+    public static function data()
     {
-        $data = json_decode($this->APILiChess());
-        $data2 = $this->APIGame();
+        $online = false;
+        $data = json_decode(Controller::APILiChess());
+        $data2 = Controller::APIGame();
+        $data3 = Controller::APILiChessStatus();
         $amount = count($data2);
 
         $code = explode('"', $data2[1]);
@@ -25,10 +27,16 @@ class Controller extends BaseController
         $black = explode('"', $data2[4]);
         $result = explode('"', $data2[5]);
 
-        return ['data' => $data, 'pgn' => $pgn, 'embed' => $embed, 'white' => $white[1], 'black' => $black[1], 'result' => $result[1]];
+        $online_status = json_decode($data3);
+        if (property_exists($online_status[0], 'online')) {
+            $online = true;
+        }
+
+
+        return ['data' => $data, 'online' => $online, 'pgn' => $pgn, 'embed' => $embed, 'white' => $white[1], 'black' => $black[1], 'result' => $result[1]];
     }
 
-    public function APILiChess()
+    public static function APILiChess()
     {
 
         $api = curl_init();
@@ -40,7 +48,18 @@ class Controller extends BaseController
         return $data;
     }
 
-    public function APIGame()
+    public static function APILiChessStatus()
+    {
+        $api = curl_init();
+        curl_setopt($api, CURLOPT_URL, "https://lichess.org/api/users/status?ids=Helikopter");
+        curl_setopt($api, CURLOPT_HTTPHEADER, array("Content-Type: application/json", "Authorization: Bearer bzpT6caKxQlDhbYu"));
+        curl_setopt($api, CURLOPT_RETURNTRANSFER, TRUE);
+        $data = curl_exec($api);
+        curl_close($api);
+        return $data;
+    }
+
+    public static function APIGame()
     {
 
         $api = curl_init();
