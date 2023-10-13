@@ -3,90 +3,46 @@
 @section('title', 'Resume')
 
 @section('content')
-<main class="max-w-7xl mx-auto p-6 lg:p-8">
-    <div class="text-2xl font-semibold mx-auto text-yellow-300 text-center">Resume</div>
-    <div x-data="{ year: 2023}">
+<main class="max-w-7xl mx-auto p-6 lg:p-8"><!-- component -->
+<div class="text-2xl font-semibold mx-auto text-yellow-300 text-center">Resume</div>
 
-      <div class="relative wrap p-10">
-        <div
-          class="border-b-4 absolute border-opacity-20 border-gray-700 w-full"
-          style="height: 50%"
-        ></div>
-        <div class="flex justify-between items-center upper-timeline">
-          <div class="order-1 absolute w-1/12"></div>
-          <div
-            x-on:click="year = 2016"
-            class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-12 h-12 hover:bg-gray-500 rounded-full"
-          >
-            <h1 class="mx-auto font-semibold text-md text-white">
-              &lt 2017 </h1>
-          </div>
-          <div class="order-2 absolute w-1/6"></div>
-          <div
-            x-on:click="year = 2017"
-            class="z-20 flex items-center order-2 bg-gray-800 shadow-xl w-12 h-12 hover:bg-gray-500 rounded-full"
-          >
-            <h1 class="mx-auto font-semibold text-lg text-white">2017</h1>
-          </div>
-          <div class="order-3 absolute w-3/12"></div>
-          <div
-            x-on:click="year = 2018"
-            class="z-20 flex items-center order-3 bg-gray-800 shadow-xl w-12 h-12 hover:bg-gray-500 rounded-full"
-          >
-            <h1 class="mx-auto font-semibold text-lg text-white">2018</h1>
-          </div>
-          <div class="order-4 absolute w-1/3"></div>
-          <div
-            x-on:click="year = 2019"
-            class="z-20 flex items-center order-4 bg-gray-800 shadow-xl w-12 h-12 hover:bg-gray-500 rounded-full"
-          >
-            <h1 class="mx-auto font-semibold text-lg text-white">2019</h1>
-          </div>
-          <div class="order-5 absolute w-5/12"></div>
-          <div
-            x-on:click="year = 2020"
-            class="z-20 flex items-center order-5 bg-gray-800 shadow-xl w-12 h-12 hover:bg-gray-500 rounded-full"
-          >
-            <h1 class="mx-auto font-semibold text-lg text-white">2020</h1>
-          </div>
-          <div class="order-6 absolute w-6/12"></div>
-          <div
-            x-on:click="year = 2021"
-            class="z-20 flex items-center order-6 bg-gray-800 shadow-xl w-12 h-12 hover:bg-gray-500 rounded-full"
-          >
-            <h1 class="mx-auto font-semibold text-lg text-white">2021</h1>
-          </div>
-          <div class="order-7 absolute w-7/12"></div>
-          <div
-            x-on:click="year = 2022"
-            class="z-20 flex items-center order-7 bg-gray-800 shadow-xl w-12 h-12 hover:bg-gray-500 rounded-full"
-          >
-            <h1 class="mx-auto font-semibold text-lg text-white">2022</h1>
-          </div>
-          <div x-on:click="year = 2023"
-            class="z-20 flex items-center order-7 bg-gray-800 shadow-xl w-12 h-12 hover:bg-gray-500 rounded-full">
-            <h1 class="mx-auto font-semibold text-lg text-white">2023</h1>
-          </div>
-        </div>
+<ol >
+  <li class="border-l-2 odd:border-green-600 even:border-purple-600">
+    <div class="md:flex flex-start" id="2023">
+      <div class="bg-purple-600 w-6 h-6 flex items-center justify-center rounded-full -ml-3.5">
+        <svg aria-hidden="true" focusable="false" data-prefix="fas" class="text-white w-3 h-3" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+          <path fill="currentColor" d="M0 464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V192H0v272zm64-192c0-8.8 7.2-16 16-16h288c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16v-64zM400 64h-48V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H160V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H48C21.5 64 0 85.5 0 112v48h448v-48c0-26.5-21.5-48-48-48z"></path>
+        </svg>
       </div>
-      <div x-show="year === 2023" class="relative bg-white dark:bg-gray-700 rounded-lg shadow-xl w-6/12 px-4 py-4 mx-auto">
-        <h3 class="mb-3 font-bold text-gray-800 text-xl">2023</h3>
-        <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
-        <ol class="list-disc list-inside">
+      <div class="block p-6 rounded-lg shadow-lg bg-gray-100 max-w-md ml-6 mb-10">
+        <div class="flex justify-between mb-4">
+          <a href="#2023" class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">2023</a>
+        </div>
+        <p class="text-gray-700 mb-6"><ol class="list-disc list-inside">
           <li>Working for <a href="https://stedin.net" target="_blank">Stedin</a></li>
           <li>Certified: SAFe 5 Practitioner</li>
           <li>Redesigning and moving SG KiNGs website to Statamic</li>
           <li>Competition Leader (Seniors) & Chess Trainer (Juniors) @ <a href="https://depion.nl" target="_blank">S.V. De
               Pion</a></li>
+              <li>Youth Leader @ <a href="https://nbsb.nl" target="_blank">NBSB</a> as of September</li>
+              <li>Moved <a href="interndepion.nl" target="_blank">Intern De Pion</a> to DigitalOcean in just two days and upgraded it to support PHP 8.1 and later</li>
         </ol>
-        </p>
+          </p>
       </div>
-      <div
-        x-show="year === 2022"
-        class="relative bg-white dark:bg-gray-700  rounded-lg shadow-xl w-6/12 px-4 py-4 mx-auto"
-      >
-        <h3 class="mb-3 font-bold text-gray-800 text-xl">2022</h3>
-        <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
+    </div>
+  </li>
+  <li class="border-l-2  odd:border-green-600 even:border-purple-600">
+    <div class="md:flex flex-start" id="2022">
+      <div class="bg-green-600 w-6 h-6 flex items-center justify-center rounded-full -ml-3.5">
+        <svg aria-hidden="true" focusable="false" data-prefix="fas" class="text-white w-3 h-3" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+          <path fill="currentColor" d="M0 464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V192H0v272zm64-192c0-8.8 7.2-16 16-16h288c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16v-64zM400 64h-48V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H160V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H48C21.5 64 0 85.5 0 112v48h448v-48c0-26.5-21.5-48-48-48z"></path>
+        </svg>
+      </div>
+      <div class="block p-6 rounded-lg shadow-lg bg-gray-100 max-w-md ml-6 mb-10">
+        <div class="flex justify-between mb-4">
+          <a href="#2022" class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">2022</a>
+        </div>
+        <p class="text-gray-700 mb-6">
         <ol class="list-disc list-inside">
           <li>Working for <a
               href="https://stedin.net"
@@ -96,20 +52,28 @@
           <li>Launched <a
               href="https://schaakmanger.nl"
               target="_blank"
-            >SchaakManager</a></li>
+            >SchaakManager</a> (Discontinued for now)</li>
           <li>Competition Leader (Seniors) & Chess Trainer (Juniors) @ <a
               href="https://depion.nl"
               target="_blank"
             >S.V. De Pion</a></li>
         </ol>
-        </p>
+          </p>
+        </div>
+    </div>
+  </li>
+  <li class="border-l-2  odd:border-green-600 even:border-purple-600">
+    <div class="md:flex flex-start" id="2021">
+      <div class="bg-purple-600 w-6 h-6 flex items-center justify-center rounded-full -ml-3.5">
+        <svg aria-hidden="true" focusable="false" data-prefix="fas" class="text-white w-3 h-3" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+          <path fill="currentColor" d="M0 464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V192H0v272zm64-192c0-8.8 7.2-16 16-16h288c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16v-64zM400 64h-48V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H160V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H48C21.5 64 0 85.5 0 112v48h448v-48c0-26.5-21.5-48-48-48z"></path>
+        </svg>
       </div>
-      <div
-        x-show="year === 2021"
-        class="relative bg-white dark:bg-gray-700  rounded-lg shadow-xl w-6/12 px-4 py-4 mx-auto"
-      >
-        <h3 class="mb-3 font-bold text-gray-800 text-xl">2021</h3>
-        <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
+      <div class="block p-6 rounded-lg shadow-lg bg-gray-100 max-w-md ml-6 mb-10">
+        <div class="flex justify-between mb-4">
+          <a href="#2021" class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">2021</a>
+        </div>
+        <p class="text-gray-700 mb-6">
         <ol class="list-disc list-inside">
           <li>Working for <a
               href="https://stedin.net"
@@ -131,14 +95,22 @@
             >S.V. De Pion</a></li>
           <li>Organised Het Open Online Roosendaals Bekertoernooi</li>
         </ol>
-        </p>
+          </p>
+        </div>
+    </div>
+  </li>
+  <li class="border-l-2  odd:border-green-600 even:border-purple-600">
+    <div class="md:flex flex-start" id="2020">
+      <div class="bg-green-600 w-6 h-6 flex items-center justify-center rounded-full -ml-3.5">
+        <svg aria-hidden="true" focusable="false" data-prefix="fas" class="text-white w-3 h-3" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+          <path fill="currentColor" d="M0 464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V192H0v272zm64-192c0-8.8 7.2-16 16-16h288c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16v-64zM400 64h-48V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H160V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H48C21.5 64 0 85.5 0 112v48h448v-48c0-26.5-21.5-48-48-48z"></path>
+        </svg>
       </div>
-      <div
-        x-show="year === 2020"
-        class="relative bg-white dark:bg-gray-700  rounded-lg shadow-xl w-6/12 px-4 py-4 mx-auto"
-      >
-        <h3 class="mb-3 font-bold text-gray-800 text-xl">2020</h3>
-        <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
+      <div class="block p-6 rounded-lg shadow-lg bg-gray-100 max-w-md ml-6 mb-10">
+        <div class="flex justify-between mb-4">
+          <a href="#2020" class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">2020</a>
+        </div>
+        <p class="text-gray-700 mb-6">
         <ol class="list-disc list-inside">
           <li>Working for <a
               href="https://stedin.net"
@@ -168,14 +140,22 @@
               target="_blank"
             >S.V. De Pion</a></li>
         </ol>
-        </p>
+          </p>
+        </div>
+    </div>
+  </li>
+  <li class="border-l-2  odd:border-green-600 even:border-purple-600">
+    <div class="md:flex flex-start" id="2019">
+      <div class="bg-purple-600 w-6 h-6 flex items-center justify-center rounded-full -ml-3.5">
+        <svg aria-hidden="true" focusable="false" data-prefix="fas" class="text-white w-3 h-3" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+          <path fill="currentColor" d="M0 464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V192H0v272zm64-192c0-8.8 7.2-16 16-16h288c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16v-64zM400 64h-48V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H160V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H48C21.5 64 0 85.5 0 112v48h448v-48c0-26.5-21.5-48-48-48z"></path>
+        </svg>
       </div>
-      <div
-        x-show="year === 2019"
-        class="relative bg-white dark:bg-gray-700 rounded-lg shadow-xl w-6/12 px-4 py-4 mx-auto"
-      >
-        <h3 class="mb-3 font-bold text-gray-800 text-xl">2019</h3>
-        <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
+      <div class="block p-6 rounded-lg shadow-lg bg-gray-100 max-w-md ml-6 mb-10">
+        <div class="flex justify-between mb-4">
+          <a href="#2019" class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">2019</a>
+        </div>
+        <p class="text-gray-700 mb-6">
         <ol class="list-disc list-inside">
           <li>Started in February at <a
               href="https://calco.nl"
@@ -214,14 +194,22 @@
               target="_blank"
             >S.V. De Pion</a></li>
         </ol>
-        </p>
+          </p>
+        </div>
+    </div>
+  </li>
+  <li class="border-l-2  odd:border-green-600 even:border-purple-600">
+    <div class="md:flex flex-start" id="2018">
+      <div class="bg-green-600 w-6 h-6 flex items-center justify-center rounded-full -ml-3.5">
+        <svg aria-hidden="true" focusable="false" data-prefix="fas" class="text-white w-3 h-3" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+          <path fill="currentColor" d="M0 464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V192H0v272zm64-192c0-8.8 7.2-16 16-16h288c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16v-64zM400 64h-48V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H160V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H48C21.5 64 0 85.5 0 112v48h448v-48c0-26.5-21.5-48-48-48z"></path>
+        </svg>
       </div>
-      <div
-        x-show="year === 2018"
-        class="relative bg-white dark:bg-gray-700  rounded-lg shadow-xl w-6/12 px-4 py-4 mx-auto"
-      >
-        <h3 class="mb-3 font-bold text-gray-800 text-xl">2018</h3>
-        <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
+      <div class="block p-6 rounded-lg shadow-lg bg-gray-100 max-w-md ml-6 mb-10">
+        <div class="flex justify-between mb-4">
+          <a href="#2018" class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">2018</a>
+        </div>
+        <p class="text-gray-700 mb-6">
         <ol class="list-disc list-inside">
           <li>Working for <a
               href="https://abab.nl"
@@ -242,14 +230,22 @@
               target="_blank"
             >S.V. De Pion</a></li>
         </ol>
-        </p>
+          </p>
+        </div>
+    </div>
+  </li>
+  <li class="border-l-2  odd:border-green-600 even:border-purple-600">
+    <div class="md:flex flex-start" id="2017">
+      <div class="bg-purple-600 w-6 h-6 flex items-center justify-center rounded-full -ml-3.5">
+        <svg aria-hidden="true" focusable="false" data-prefix="fas" class="text-white w-3 h-3" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+          <path fill="currentColor" d="M0 464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V192H0v272zm64-192c0-8.8 7.2-16 16-16h288c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16v-64zM400 64h-48V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H160V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H48C21.5 64 0 85.5 0 112v48h448v-48c0-26.5-21.5-48-48-48z"></path>
+        </svg>
       </div>
-      <div
-        x-show="year === 2017"
-        class="relative bg-white dark:bg-gray-700  rounded-lg shadow-xl w-6/12 px-4 py-4 mx-auto"
-      >
-        <h3 class="mb-3 font-bold text-gray-800 text-xl">2017</h3>
-        <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
+      <div class="block p-6 rounded-lg shadow-lg bg-gray-100 max-w-md ml-6 mb-10">
+        <div class="flex justify-between mb-4">
+          <a href="#2017" class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">2017</a>
+        </div>
+        <p class="text-gray-700 mb-6">
         <ol class="list-disc list-inside">
           <li>Started in July at <a
               href="https://abab.nl"
@@ -268,14 +264,22 @@
               target="_blank"
             >S.V. De Pion</a></li>
         </ol>
-        </p>
+          </p>
+        </div>
+    </div>
+  </li>
+  <li class="border-l-2 odd:border-green-600 even:border-purple-600">
+    <div class="md:flex flex-start" id="2016">
+      <div class="bg-green-600 w-6 h-6 flex items-center justify-center rounded-full -ml-3.5">
+        <svg aria-hidden="true" focusable="false" data-prefix="fas" class="text-white w-3 h-3" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+          <path fill="currentColor" d="M0 464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V192H0v272zm64-192c0-8.8 7.2-16 16-16h288c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16v-64zM400 64h-48V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H160V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H48C21.5 64 0 85.5 0 112v48h448v-48c0-26.5-21.5-48-48-48z"></path>
+        </svg>
       </div>
-      <div
-        x-show="year === 2016"
-        class="relative bg-white dark:bg-gray-700 rounded-lg shadow-xl w-6/12 px-4 py-4 mx-auto"
-      >
-        <h3 class="mb-3 font-bold text-gray-800 text-xl">2016 & before</h3>
-        <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
+      <div class="block p-6 rounded-lg shadow-lg bg-gray-100 max-w-md ml-6 mb-10">
+        <div class="flex justify-between mb-4">
+          <a href="#2016" class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">2016 and before</a>
+        </div>
+        <p class="text-gray-700 mb-6">
         <ol class="list-disc list-inside">
           <li>Obtained Bachelor's Degree in Fiscal Economics at Erasmus University Rotterdam (2015)</li>
           <li>Graduated from Markland College (VWO, <i>Pre-University Education</i>) (2012)</li>
@@ -288,8 +292,10 @@
               target="_blank"
             >S.V. De Pion</a> (since 2012)</li>
         </ol>
-        </p>
-      </div>
+          </p>
+        </div>
     </div>
-  </main>
+  </li>
+</ol>
+</main>
   @endsection
