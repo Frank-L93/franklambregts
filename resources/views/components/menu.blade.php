@@ -3,11 +3,11 @@
         href="/"
         class="flex text-xl items-center"
       >
-        <span class="text-red-600">F</span><span class="text-yellow-500">R</span><span class="text-yellow-200">A</span><span class="text-green-300">N</span><span class="text-blue-200">K</span><span class="text-blue-500">!</span>
+        <img src='frank1.png' width='50px' height='50px'/>
       </a>
     <div>
         <ul class="relative hidden space-x-10 md:inline-flex rtl:space-x-reverse">
-      
+
     <li>
           <a href='/projects' class="{{$currentPage == 'projects' ? 'hidden' : 'text-gray-800 hover:text-gray-900 bg-red-600 bg-opacity-50 rounded-xl p-3 hover:bg-opacity-80"
             '}}">Projects <img

@@ -20,6 +20,7 @@
             </div>
             <p class="text-gray-700 mb-6"><ol class="list-disc list-inside">
               <li>Working for <a href="https://stedin.net" target="_blank">Stedin</a></li>
+              <li>Certified: ArchiMate 3.2 Foundation</li>
               <li>Competition Leader (Seniors) & Chess Trainer (Juniors) @ <a href="https://depion.nl" target="_blank">S.V. De
                   Pion</a></li>
             <li>Youth Leader @ <a href="https://nbsb.nl" target="_blank">NBSB</a> as of September</li>
