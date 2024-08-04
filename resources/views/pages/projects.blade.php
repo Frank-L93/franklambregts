@@ -6,6 +6,25 @@
 <main class="max-w-7xl mx-auto p-6 lg:p-8">
         <div class="text-2xl font-semibold mx-auto text-red-300 text-center">Projects</div>
     <div class="grid grid-cols-1 sm:grid-cols-3 mt-16 sm:gap-10">
+        <a
+        href="https://sgking.nl"
+        target="_blank"
+        class="rounded-3xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-white dark:bg-gray-700 dark:bg-ternary-dark"
+      >
+        <div>
+          <img
+            src="king.png"
+            alt=""
+            class="rounded-t-3xl border-none"
+          />
+        </div>
+        <div class="text-center px-4 py-6">
+          <p class="text-2xl text-blue-500 font-semibold mb-2">
+            SG KiNG
+          </p>
+          <span class="text-lg">Redesigned the website of chess club SG KiNG. Migrated it from WordPress to Statamic and included some new features.</span>
+        </div>
+      </a>
       <a
         href="https://github.com/Frank-L93/KeizerPHP"
         target="_blank"
