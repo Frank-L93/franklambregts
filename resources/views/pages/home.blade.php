@@ -79,7 +79,10 @@ Projects I've done</p>
                 </div>
 
                 <div class="flex justify-center mt-16 px-0 sm:items-center sm:justify-between">
-
+                    <div class="ml-4 text-center text-sm text-gray-500 dark:text-gray-400 sm:text-right sm:ml-0">
+                        <a href="https://www.linkedin.com/in/frank-lambregts-a72017149/" target="_blank"><span class="bg-white rounded-md px-2 py-1 inline-block text-blue-300">LinkedIn</span></a>
+                        <a href="https://github.com/Frank-L93" target="_blank"><span class="bg-white rounded-md px-2 py-1 inline-block text-black">GitHub</span></a>
+                    </div>
 
                     <div class="ml-4 text-center text-sm text-gray-500 dark:text-gray-400 sm:text-right sm:ml-0">
                         <span class="inline text-yellow-300 px-1">Coded with 💖 in <a
@@ -95,6 +98,7 @@ Projects I've done</p>
               target="_blank"
               class="hover:underline"
             >Tailwind</a></span>
+
                     </div>
                 </div>
             </div>

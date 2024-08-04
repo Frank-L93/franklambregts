@@ -5,6 +5,8 @@
 @section('content')
 <main class="max-w-7xl mx-auto p-6 lg:p-8"><!-- component -->
 <div class="text-2xl font-semibold mx-auto text-yellow-300 text-center">Resume</div>
+<div class="text-xs mx-auto text-center"><a href="https://www.linkedin.com/in/frank-lambregts-a72017149/" target="_blank"><span class="m-2 bg-white rounded-md px-2 py-1 inline-block text-blue-300">LinkedIn</span></a>
+</div>
 
 <ol >
     <li class="border-l-2 odd:border-green-600 even:border-purple-600">

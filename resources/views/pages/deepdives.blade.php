@@ -48,38 +48,18 @@
       </div>
       <div class="rounded-3xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-white dark:bg-gray-700 dark:bg-ternary-dark">
         <div class="text-center px-4 py-6">
-          <p class="text-2xl text-red-500 font-semibold mb-2">Laravel</p>
+          <p class="text-2xl text-red-500 font-semibold mb-2">Want me to deepdive into something?</p>
+
+          <span class="text-lg">
+            <ol class="list-decimal list-inside">
+              <li>Send me a request!</li>
+              <li>Use web [at] franklambregts.com and I will contact you</li>
+            </ol>
+          </span>
         </div>
-
-        <span class="text-lg">
-          <ol class="list-decimal list-inside">
-            <li>To be published</li>
-          </ol>
-        </span>
       </div>
-      <div class="rounded-3xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-white dark:bg-gray-700 dark:bg-ternary-dark overflow-auto object-fill">
-      <div class="text-center px-4 py-6">
-        <p class="text-2xl text-red-500 font-semibold mb-2">LiChess Study</p>
-      </div>
-
-        <iframe
-              src="https://lichess.org/study/embed/PStUi8RJ/fyt6DoLb"
-              frameborder=1
-            ></iframe>
-    </div>
-
-<div class="rounded-3xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-white dark:bg-gray-700 dark:bg-ternary-dark">
-      <div class="text-center px-4 py-6">
-        <p class="text-2xl text-red-500 font-semibold mb-2">LiChess Study</p>
-      </div>
-
-        <iframe
-              src="https://lichess.org/study/embed/WYOdGNel/tUqRYs5e"
-              frameborder=1
-            ></iframe>
-    </div>
 </div>
-          
-    
+
+
 </main>
 @endsection
