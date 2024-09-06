@@ -26,6 +26,10 @@
                 class="inline-flex"
                 src="icons/book.svg"
               ></a></li>
+              <li> <a href='/about' class="{{$currentPage == 'about me' ? 'hidden' : 'text-gray-800 hover:text-gray-900 bg-purple-500 bg-opacity-50 rounded-xl p-3 hover:bg-opacity-80'}}">About Me <img
+                class="inline-flex"
+                src="icons/user.svg"
+              ></a></li>
         </ul>
     </div>
     <div class="flex z-30 items-center space-x-5 rtl:space-x-reverse" x-data="{open: false}">
@@ -82,6 +86,11 @@
             href="/deepdives"
             class="block text-gray-800 hover:text-gray-900 bg-blue-500 rounded-xl p-3 hover:bg-opacity-80"
           > DeepDives </a>
+          <a
+          @click="open = !open"
+          href="/about"
+          class="block text-gray-800 hover:text-gray-900 bg-blue-500 rounded-xl p-3 hover:bg-opacity-80"
+        > About Me </a>
 
         </div>
       </div>
