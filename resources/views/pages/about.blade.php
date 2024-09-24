@@ -18,24 +18,20 @@
         <p class="my-3">That's me, on the left and well, as you might have guessed, my name is Frank Lambregts. I am an enthousiast about anything that has to do with tech. I like to play chess and I am huge fan of Harry Potter.</p>
         </div>
 
+        <div>
+            <flux:heading size="xl">Blog</flux:heading>
+            <flux:accordion exclusive transition>
+                <flux:accordion.item expanded heading="The first post">
+                    <flux:accordion.content>
+                        So, we are introducing Flux in the mix of this page
+                     </flux:accordion.content>
+                </flux:accordion.item>
 
+            </flux:accordion>
+        </div>
 
 </flux:card>
-<div>
-    <flux:heading size="xl">Blog</flux:heading>
-    <flux:accordion exclusive transition>
-        <flux:accordion.item expanded heading="The first post">
-            <flux:accordion.content>
-                So, we are introducing Flux in the mix of this page
-             </flux:accordion.content>
-        </flux:accordion.item>
-        <flux:accordion.item heading="The second post">
-            <flux:accordion.content>
-                So, we are introducing Flux in the mix of this page
-             </flux:accordion.content>
-        </flux:accordion.item>
-    </flux:accordion>
-</div>
+
 
 </main>
 @endsection
