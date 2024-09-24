@@ -78,4 +78,23 @@ class Controller extends BaseController
 
         return $array;
     }
+
+    /*
+    *   Returns more data based on # $perf
+    *
+    */
+    public static function moreData(String $perf)
+    {
+        $api = curl_init();
+        curl_setopt($api, CURLOPT_URL, "https://lichess.org/api/user/helikopter/perf/".$perf);
+        curl_setopt($api, CURLOPT_HTTPHEADER, array("Content-Type: application/json", "Authorization: Bearer bzpT6caKxQlDhbYu"));
+        curl_setopt($api, CURLOPT_RETURNTRANSFER, TRUE);
+        $data = curl_exec($api);
+        curl_close($api);
+
+        $real_data = json_decode($data);
+        return response()->json($real_data);
+
+    }
+
 }
