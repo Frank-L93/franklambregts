@@ -18,15 +18,16 @@
           </div>
           <div class="block p-6 rounded-lg shadow-lg bg-gray-100 max-w-md ml-6 mb-10">
             <div class="flex justify-between mb-4">
-              <a href="#2023" class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">2024</a>
+              <a href="#2024" class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">2024</a>
             </div>
             <p class="text-gray-700 mb-6"><ol class="list-disc list-inside">
               <li>Working for <a href="https://stedin.net" target="_blank">Stedin</a></li>
               <li>Certified: ArchiMate 3.2 Foundation</li>
               <li>Competition Leader (Seniors) & Chess Trainer (Juniors) @ <a href="https://depion.nl" target="_blank">S.V. De
                   Pion</a></li>
-            <li>Youth Leader @ <a href="https://nbsb.nl" target="_blank">NBSB</a> as of September</li>
-
+              <li>Youth Leader @ <a href="https://nbsb.nl" target="_blank">NBSB</a></li>
+              <li>Continues improvement on SG KiNGs website (Statamic), Intern De Pion (a system to regulate the internal chess competion of De Pion, Keizer-systeem (Laravel))</li>
+              <li>Started making more use of the API of LiChess on my personal site.</li>
             </ol>
               </p>
           </div>
@@ -50,7 +51,7 @@
           <li>Competition Leader (Seniors) & Chess Trainer (Juniors) @ <a href="https://depion.nl" target="_blank">S.V. De
               Pion</a></li>
               <li>Youth Leader @ <a href="https://nbsb.nl" target="_blank">NBSB</a> as of September</li>
-              <li>Moved <a href="interndepion.nl" target="_blank">Intern De Pion</a> to DigitalOcean in just two days and upgraded it to support PHP 8.1 and later</li>
+              <li>Moved <a href="https://interndepion.nl" target="_blank">Intern De Pion</a> to DigitalOcean in just two days and upgraded it to support PHP 8.1 and later</li>
         </ol>
           </p>
       </div>
