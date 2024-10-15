@@ -14,7 +14,7 @@
 
 
         <div class="inline-flex">
-        <span class="mx-2"><img src="/frank.jpeg" /></span>
+        <span class="mx-2"><img src="/frank.jpg" /></span>
         <p class="my-3">That's me, on the left and well, as you might have guessed, my name is Frank Lambregts. I am an enthousiast about anything that has to do with tech. I like to play chess and I am huge fan of Harry Potter.</p>
         </div>
 
