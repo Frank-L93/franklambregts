@@ -23,7 +23,7 @@
             <flux:accordion exclusive transition>
                 <flux:accordion.item expanded heading="The first post">
                     <flux:accordion.content>
-                        So, we are introducing Flux in the mix of this page
+                        So, we are introducing Flux in the mix of this page. I might start blogging about chess, technology, Harry Potter and other fun stuff.
                      </flux:accordion.content>
                 </flux:accordion.item>
 
