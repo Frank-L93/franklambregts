@@ -89,7 +89,7 @@
           <a
           @click="open = !open"
           href="/about"
-          class="block text-gray-800 hover:text-gray-900 bg-blue-500 rounded-xl p-3 hover:bg-opacity-80"
+          class="block text-gray-800 hover:text-gray-900 bg-purple-500 rounded-xl p-3 hover:bg-opacity-80"
         > About Me </a>
 
         </div>
