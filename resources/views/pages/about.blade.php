@@ -21,6 +21,12 @@
         <div>
             <flux:heading size="xl">Blog</flux:heading>
             <flux:accordion exclusive transition>
+                <flux:accordion.item expanded heading="Chess and PHP">
+                    <flux:accordion.content>
+                        Many applications that are used for chess are Windows-based and don't have a native application for Mac. Good examples are Swiss-Manager, Swiss Master or the Sevilla application. All three are popular to organise a tournament or competition, but none of them work on the MacOS, unless you use software like CrossOver.
+                        That's a pity. And therefore I am working on a SaaS-solution for this that can be run in any webbrowser. I program in PHP and soon you find out that some heavy calculation are pretty hard to make the correct logic for, but is a interesting sideproject.
+                     </flux:accordion.content>
+                </flux:accordion.item>
                 <flux:accordion.item expanded heading="The first post">
                     <flux:accordion.content>
                         So, we are introducing Flux in the mix of this page. I might start blogging about chess, technology, Harry Potter and other fun stuff.
