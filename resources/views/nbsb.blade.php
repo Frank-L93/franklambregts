@@ -8,7 +8,6 @@
         <meta name="keywords" content="Frank, Lambregts, Frank Lambregts, SAP, Consultant, PHP, Laravel, Chess, SD, Finance, SAP Architect">
         <title>@yield('title', 'Home') - Frank Lambregts</title>
       @vite(['resources/css/app.css', 'resources/js/app.js'])
-      @fluxStyles
     </head>
     <body class="mx-auto antialiased">
 
@@ -16,6 +15,5 @@
             @yield('content')
 
         </div>
-        @fluxScripts
     </body>
 </html>
