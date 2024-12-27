@@ -13,7 +13,7 @@
     </head>
     <body class="mx-auto antialiased">
 
-        <div class="relative sm:flex sm:justify-center sm:items-center min-h-screen bg-dots-darker bg-center bg-red-500 selection:bg-red-500 selection:text-white">
+        <div class="relative sm:flex sm:justify-center sm:items-center min-h-screen bg-dots-darker bg-center">
             @yield('content')
 
         </div>

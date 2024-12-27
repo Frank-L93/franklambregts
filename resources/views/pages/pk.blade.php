@@ -14,13 +14,12 @@
 
 
 
-        <div>
+        <div class="text-black">
             <a href="/uploads/2025/AB/SMWSite/index.html"><flux:heading size="xl">AB</flux:heading></a>
 
             <a href="/uploads/2025/C/SMWSite/index.html"><flux:heading size="xl">C</flux:heading></a>
 
             <a href="/uploads/2025/Dm/SMWSite/index.html"><flux:heading size="xl">D-meisjes</flux:heading></a>
-
 
         </div>
 
