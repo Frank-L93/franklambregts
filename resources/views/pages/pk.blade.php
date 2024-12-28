@@ -16,6 +16,4 @@
             <a href="/uploads/2025/Em/SMWSite/index.html" class="text-black hover:text-red-300">E-meisjes</a>
         </div>
     </div>
-
-
 </main>
