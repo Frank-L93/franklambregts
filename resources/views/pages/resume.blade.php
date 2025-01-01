@@ -23,13 +23,12 @@
             <p class="text-gray-700 mb-6"><ol class="list-disc list-inside">
               <li>Working for <a href="https://stedin.net" target="_blank">Stedin</a> (until 14th of February)</li>
               <li>Started as Informatie Analist @ <a href="https://vgz.nl" target="_blank">VGZ</a> per 16th of February</li>
-              <li>Certified: /li>
+              <li>Certified: </li>
               <li>Competition Leader (Seniors) & Chess Trainer (Juniors) @ <a href="https://depion.nl" target="_blank">S.V. De
                   Pion</a></li>
               <li>Youth Leader @ <a href="https://nbsb.nl" target="_blank">NBSB</a>:
                 <li>Redesigned the Minorpromotion (magazine for chess youth in North Brabant) in Canva</li></li>
               <li>Continues improvement on SG KiNGs website (Statamic)</li>
-
             </ol>
               </p>
           </div>
