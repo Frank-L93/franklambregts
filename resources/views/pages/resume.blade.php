@@ -26,8 +26,7 @@
               <li>Certified: </li>
               <li>Competition Leader (Seniors) & Chess Trainer (Juniors) @ <a href="https://depion.nl" target="_blank">S.V. De
                   Pion</a></li>
-              <li>Youth Leader @ <a href="https://nbsb.nl" target="_blank">NBSB</a>:
-                <li>Redesigned the Minorpromotion (magazine for chess youth in North Brabant) in Canva</li></li>
+              <li>Youth Leader @ <a href="https://nbsb.nl" target="_blank">NBSB</a></li>
               <li>Continues improvement on SG KiNGs website (Statamic)</li>
             </ol>
               </p>
@@ -51,8 +50,8 @@
               <li>Competition Leader (Seniors) & Chess Trainer (Juniors) @ <a href="https://depion.nl" target="_blank">S.V. De
                   Pion</a></li>
               <li>Youth Leader @ <a href="https://nbsb.nl" target="_blank">NBSB</a>:
-                <li>Redesigned the Minorpromotion (magazine for chess youth in North Brabant) in Canva</li></li>
-
+                <ul><li>Redesigned the Minorpromotion (magazine for chess youth in North Brabant) in Canva</li></ul>
+            </li>
               <li>Continues improvement on SG KiNGs website (Statamic), Intern De Pion (a system to regulate the internal chess competion of De Pion, Keizer-systeem (Laravel))</li>
               <li>Started making more use of the API of LiChess on my personal site.</li>
             </ol>
