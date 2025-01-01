@@ -1,0 +1,68 @@
+a {	color: #000000;	/*text-decoration: none;*/ }
+a:visited {	color: #000000; }
+/*a:hover { text-decoration:underline; }*/
+BODY
+{
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	font-size : 9pt;
+}
+.TournamentName
+{
+	font-size : 14pt;
+	font-weight : bold;
+}
+.FrameHeader
+{
+	font-size : 14pt;
+	font-weight : bold;
+}
+TABLE
+{
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	font-size : 9pt;
+	border-collapse : collapse;
+	border : 0px;
+}
+TABLE.player{	background-color : #FFF5EE;}
+.r1 TD{	background-color: #FFFFFF;}
+.r2 TD{	background-color: #FFF5EE;}
+TD.w{	background-color : White;}
+TD.b{	background-color : #DCDCDC;}
+TD.noborder
+{
+	border : 0px;
+}
+.round TD
+{
+	width: 15px;
+	text-align: center;
+	background : ButtonFace;
+}
+TD.CrossTableCrossCell
+{
+	background : Black;
+}
+.MenuListBox
+{
+	font-weight : bold;
+}
+TD.score
+{
+	width: 15px;
+	text-align: center;
+}
+TH,TD
+{
+	text-align : left;
+	border : thin inset White;
+	padding: 3;
+}
+TH
+{
+	background : #FFCC99;
+	font-size: 9pt;
+}
+TD
+{
+	vertical-align : top;
+}

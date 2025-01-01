@@ -1,0 +1,5 @@
+Board;WhiteNr;WhiteFideId;WhiteName;WhiteElo;WhitePoints;Result;BlackPoints;BlackElo;BlackName;BlackFideId;BlackNr
+1;8;9013598;"Killic, Tuncay";0;1.5;1-0;0.0;1346;"Tromm, Amber";8783654;6
+2;7;8783643;"Fusers, Jonne";1330;0.0;1-0;1.0;1347;"Kursten, Gwen";8784600;5
+3;1;8845001;"Vogels, Mathijs";1838;2.5;1-0;3.0;1644;"Yildirim, Azra";8712627;4
+4;2;8831482;"Hompes, Roel";1750;2.0;1-0;2.0;1659;"Mathijssen, Koen";8710207;3

@@ -1,0 +1,9 @@
+Board;WhiteNr;WhiteFideId;WhiteName;WhiteElo;WhitePoints;Result;BlackPoints;BlackElo;BlackName;BlackFideId;BlackNr
+1;2;8806479;"Thijssen, Freek";1901;2.5;1-0;3.0;1861;"Ma, Tim";8933991;3
+2;5;8798075;"Gayen, Arish";1756;2.0;1-0;2.5;2073;"Leenen, Boyd";8809306;1
+3;4;8930592;"Lalkota, Sai Pranav Tejas";1855;2.0;1-0;2.0;1607;"Zhang, Yourui Eric";8746727;8
+4;6;8990377;"Zhou, Yanyang";1755;1.5;1/2-1/2;1.5;1689;"Elangkumaran, Anumitra";8925125;7
+5;9;8710218;"Mathijssen, Jasper";1522;1.0;1/2-1/2;1.0;1467;"Bruls, Sven";9028008;10
+6;11;8964747;"De Vylder, Nathan";1249;1.0;0-1;1.0;1056;"Maram, Vihaan";8934629;14
+7;13;9073427;"Van der Heijden, Marijn";1190;1.0;0-1;0.5;1216;"Fusers, Lorijn";8831471;12
+8;15;9052032;"Gupta, Adarsh";0;0.5;1-0;1.0;0;"Pai, Pradhyun";8966881;16

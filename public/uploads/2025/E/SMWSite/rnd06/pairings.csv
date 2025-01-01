@@ -1,0 +1,9 @@
+Board;WhiteNr;WhiteFideId;WhiteName;WhiteElo;WhitePoints;Result;BlackPoints;BlackElo;BlackName;BlackFideId;BlackNr
+1;2;9022409;"Pata, Teodor-Stefan";1498;3.0;1/2-1/2;5.0;1861;"Ma, Tim";8933991;1
+2;6;9054606;"Kokkula, Advaith Krishna";1220;4.0;1-0;3.5;1475;"Leenen, Pomme";8902344;3
+3;5;9013796;"Altay, Cagan Deniz";1222;3.0;1-0;3.5;1302;"Leenen, Bing";8902355;4
+4;13;9100454;"Do, Leo";0;3.0;1/2-1/2;2.5;1054;"Lalkota, Srikar";8974768;8
+5;15;9100674;"Satya Penugurti, Advika";0;2.5;1/2-1/2;2.5;0;"Chaudhuri, Aarini";9091962;12
+6;14;9100641;"Marupudi, Maurya Kiran";0;2.0;0-1;1.5;737;"Methlouthi, Youssef";9021144;11
+7;10;8999507;"Spahiev, Jordan";773;1.0;0-1;1.5;841;"Udhaya Kumar, Medhini";8999111;9
+-;7;9083679;"Ding, David";1207;1.5;1;;;pairing allocated bye
