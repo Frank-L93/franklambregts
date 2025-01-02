@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -12,6 +13,10 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+
+Route::get('/rad', function() {
+    return Redirect::to('https://wheelofnames.com/nl/gdp-5hp');
+});
 
 Route::get('/', function () {
     return view('pages.home');
