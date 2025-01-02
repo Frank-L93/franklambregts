@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use GuzzleHttp\Psr7\Utils;
 use GuzzleHttp\Psr7\Message;
+use GuzzleHttp\Psr7\Request;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller as BaseController;
@@ -97,4 +98,16 @@ class Controller extends BaseController
 
     }
 
+    public static function Galery()
+    {
+        if(isset($_GET['galerij'])){
+            $files = 'uploads/2025/galerij/'.$_GET['galerij'];
+            $scanned_directory = array_diff(scandir($files), array('..', '.'));
+            return $scanned_directory;
+        }
+        else{
+            return "Geen galerij";
+        }
+
+    }
 }
