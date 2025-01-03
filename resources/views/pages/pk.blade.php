@@ -13,6 +13,7 @@
             <a href="/uploads/2025/AB/SMWSite/index.html" class="text-black hover:text-red-300">AB</a>
             <a href="/uploads/2025/C/SMWSite/index.html" class="text-black hover:text-red-300">C</a>
             <a href="/uploads/2025/Cm/SMWSite/index.html" class="text-black hover:text-red-300">C-meisjes</a>
+            <a href="/uploads/2025/D/SMWSite/index.html" class="text-black hover:text-red-300">D</a>
             <a href="/uploads/2025/Dm/SMWSite/index.html" class="text-black hover:text-red-300">D-meisjes</a>
             <a href="/uploads/2025/E/SMWSite/index.html" class="text-black hover:text-red-300">E</a>
             <a href="/uploads/2025/Em/SMWSite/index.html" class="text-black hover:text-red-300">E-meisjes</a>
