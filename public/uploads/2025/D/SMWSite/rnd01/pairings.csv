@@ -1,7 +1,7 @@
 Board;WhiteNr;WhiteFideId;WhiteName;WhiteElo;WhitePoints;Result;BlackPoints;BlackElo;BlackName;BlackFideId;BlackNr
-1;15;8961678;"Omnes, Zoë";1417;0.0;*;0.0;2072;"Dinanath, Hrdya";8853042;1
-2;2;8939645;"Zhang, Xiheng";2000;0.0;*;0.0;1365;"Malhan, Kiyaan";9026237;16
-3;17;9068708;"Li, Vince";1333;0.0;*;0.0;1881;"Lenting, Roan";8885184;3
+1;15;8961678;"Omnes, Zoë";1417;0.0;0-1;0.0;2072;"Dinanath, Hrdya";8853042;1
+2;2;8939645;"Zhang, Xiheng";2000;0.0;1-0;0.0;1365;"Malhan, Kiyaan";9026237;16
+3;17;9068708;"Li, Vince";1333;0.0;0-1;0.0;1881;"Lenting, Roan";8885184;3
 4;4;8933991;"Ma, Tim";1861;0.0;1-0;0.0;1182;"Methlouthi, Aly";9021133;18
 5;19;9074351;"Kao, Ko-En";1137;0.0;0-1;0.0;1829;"Omnes, Tiago";8852580;5
 6;6;9030736;"Van Heinsbergen, Jonathan";1761;0.0;1-0;0.0;1090;"Engels, Devy";8843901;20
@@ -10,7 +10,6 @@ Board;WhiteNr;WhiteFideId;WhiteName;WhiteElo;WhitePoints;Result;BlackPoints;Blac
 9;23;9072426;"Kao, Cheng-Zhe Buddy";870;0.0;0-1;0.0;1743;"Huang, Vincent";8973327;9
 10;10;8924927;"Verstegen, Jonas";1594;0.0;1-0;0.0;0;"Chaudhuri, Aarini";9091962;24
 11;25;9094327;"Deijkers, Senn";0;0.0;0-1;0.0;1548;"Plukkel, Guus";8985273;11
-12;12;9022409;"Pata, Teodor-Stefan";1509;0.0;1-0;0.0;0;"Hamelink, Noah";9094811;27
-13;28;9100641;"Marupudi, Maurya Kiran";0;0.0;0-1;0.0;1492;"Zhang, Melody";8871038;13
-14;14;8966474;"Gafurov, Damir";1457;0.0;0-1;0.0;0;"Satya Penugurti,Advika";9100674;29
--;26;9054474;"Galkin, Eric";0;0.0;0;;;bye
+12;12;9022409;"Pata, Teodor-Stefan";1509;0.0;1-0;0.0;0;"Hamelink, Noah";9094811;26
+13;27;9100641;"Marupudi, Maurya Kiran";0;0.0;0-1;0.0;1492;"Zhang, Melody";8871038;13
+14;14;8966474;"Gafurov, Damir";1457;0.0;0-1;0.0;0;"Satya Penugurti,Advika";9100674;28
