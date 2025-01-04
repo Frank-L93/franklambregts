@@ -8,7 +8,7 @@ Rank;Name;Score;Federation;Gender;Rating;TPR;W-We;BH;SB
 7;"Zhou, Yanyang";2.0;NED;M;1755;2155;+0.08; 1.0; 1.0
 8;"Verstegen, Jonas";1.0;NED;M;1594;1081;-0.16; 3.0; 1.0
 9;"Zhang, Melody";1.0;NED;V;1492;961;-0.17; 3.0; 1.0
-10;"Satya Penugurti,Advika";1.0;NED;V;0 *;1606;0; 3.0; 1.0
+10;"Satya Penugurti,Advika";1.0;NED;V;0 *;1606;+0.50; 3.0; 1.0
 11;"Srivatsa, Kirtin";1.0;NED;M;1754;1713;-0.05; 2.0; 0.0
 12;"Huang, Vincent";1.0;NED;M;1743;1672;-0.10; 2.0; 0.0
 13;"Plukkel, Guus";1.0;NED;M;1548;1061;-0.14; 2.0; 0.0
@@ -18,12 +18,12 @@ Rank;Name;Score;Federation;Gender;Rating;TPR;W-We;BH;SB
 17;"Methlouthi, Aly";1.0;NED;M;1182;782;-0.08; 2.0; 0.0
 18;"Kao, Ko-En";1.0;NED;V;1137;737;-0.08; 2.0; 0.0
 19;"Gafurov, Damir";1.0;NED;M;1457;1890;+0.10; 1.0; 0.0
-20;"Chaudhuri, Aarini";1.0;NED;V;0;1464;0; 1.0; 0.0
-21;"Marupudi, Maurya Kiran";1.0;NED;M;0;1291;0; 1.0; 0.0
+20;"Chaudhuri, Aarini";1.0;NED;V;0;1464;+0.50; 1.0; 0.0
+21;"Marupudi, Maurya Kiran";1.0;NED;M;0;1291;+0.50; 1.0; 0.0
 22;"Li, Vince";0.0;NED;M;1333;933;-0.08; 3.0; 0.0
 23;"Engels, Devy";0.0;NED;M;1090;690;-0.08; 3.0; 0.0
 24;"Jin, Jayden";0.0;NED;M;1090;674;-0.18; 3.0; 0.0
 25;"Staadegaard, Bas";0.0;NED;M;1087;652;-0.20; 2.0; 0.0
 26;"Kao, Cheng-Zhe Buddy";0.0;NED;M;870;470;-0.16; 2.0; 0.0
-27;"Deijkers, Senn";0.0;NED;M;0;565;0; 2.0; 0.0
-28;"Hamelink, Noah";0.0;NED;M;0;523;0; 2.0; 0.0
+27;"Deijkers, Senn";0.0;NED;M;0;565; 565; 2.0; 0.0
+28;"Hamelink, Noah";0.0;NED;M;0;523; 523; 2.0; 0.0
