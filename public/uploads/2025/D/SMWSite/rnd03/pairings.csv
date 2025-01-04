@@ -1,15 +1,15 @@
 Board;WhiteNr;WhiteFideId;WhiteName;WhiteElo;WhitePoints;Result;BlackPoints;BlackElo;BlackName;BlackFideId;BlackNr
-1;4;8933991;"Ma, Tim";1861;2.0;*;2.0;2072;"Dinanath, Hrdya";8853042;1
-2;2;8939645;"Zhang, Xiheng";2000;2.0;*;2.0;1829;"Omnes, Tiago";8852580;5
-3;6;9030736;"Van Heinsbergen, Jonathan";1761;2.0;*;2.0;1881;"Lenting, Roan";8885184;3
-4;8;8983249;"Srivatsa, Kirtin";1754;1.0;*;2.0;1755;"Zhou, Yanyang";8990377;7
-5;15;8961678;"Omnes, Zoë";1417;1.0;*;1.0;1743;"Huang, Vincent";8973327;9
-6;10;8924927;"Verstegen, Jonas";1594;1.0;*;1.0;1365;"Malhan, Kiyaan";9026237;16
-7;19;9074351;"Kao, Ko-En";1137;1.0;*;1.0;1548;"Plukkel, Guus";8985273;11
-8;12;9022409;"Pata, Teodor-Stefan";1509;1.0;*;1.0;1182;"Methlouthi, Aly";9021133;18
-9;28;9100674;"Satya Penugurti,Advika";0;1.0;*;1.0;1492;"Zhang, Melody";8871038;13
-10;14;8966474;"Gafurov, Damir";1457;1.0;*;1.0;0;"Chaudhuri, Aarini";9091962;24
-11;27;9100641;"Marupudi, Maurya Kiran";0;1.0;*;0.0;1090;"Jin, Jayden";8965847;21
-12;17;9068708;"Li, Vince";1333;0.0;*;0.0;0;"Hamelink, Noah";9094811;26
-13;23;9072426;"Kao, Cheng-Zhe Buddy";870;0.0;*;0.0;1090;"Engels, Devy";8843901;20
-14;25;9094327;"Deijkers, Senn";0;0.0;*;0.0;1087;"Staadegaard, Bas";9076243;22
+1;4;8933991;"Ma, Tim";1861;2.0;0-1;2.0;2072;"Dinanath, Hrdya";8853042;1
+2;2;8939645;"Zhang, Xiheng";2000;2.0;1/2-1/2;2.0;1829;"Omnes, Tiago";8852580;5
+3;6;9030736;"Van Heinsbergen, Jonathan";1761;2.0;0-1;2.0;1881;"Lenting, Roan";8885184;3
+4;8;8983249;"Srivatsa, Kirtin";1754;1.0;1/2-1/2;2.0;1755;"Zhou, Yanyang";8990377;7
+5;15;8961678;"Omnes, Zoë";1417;1.0;0-1;1.0;1743;"Huang, Vincent";8973327;9
+6;10;8924927;"Verstegen, Jonas";1594;1.0;1-0;1.0;1365;"Malhan, Kiyaan";9026237;16
+7;19;9074351;"Kao, Ko-En";1137;1.0;0-1;1.0;1548;"Plukkel, Guus";8985273;11
+8;12;9022409;"Pata, Teodor-Stefan";1509;1.0;0-1;1.0;1182;"Methlouthi, Aly";9021133;18
+9;28;9100674;"Satya Penugurti,Advika";0;1.0;0-1;1.0;1492;"Zhang, Melody";8871038;13
+10;14;8966474;"Gafurov, Damir";1457;1.0;1-0;1.0;0;"Chaudhuri, Aarini";9091962;24
+11;27;9100641;"Marupudi, Maurya Kiran";0;1.0;1-0;0.0;1090;"Jin, Jayden";8965847;21
+12;17;9068708;"Li, Vince";1333;0.0;1-0;0.0;0;"Hamelink, Noah";9094811;26
+13;23;9072426;"Kao, Cheng-Zhe Buddy";870;0.0;0-1;0.0;1090;"Engels, Devy";8843901;20
+14;25;9094327;"Deijkers, Senn";0;0.0;1-0;0.0;1087;"Staadegaard, Bas";9076243;22
