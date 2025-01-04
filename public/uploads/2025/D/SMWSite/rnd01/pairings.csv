@@ -10,7 +10,7 @@ Board;WhiteNr;WhiteFideId;WhiteName;WhiteElo;WhitePoints;Result;BlackPoints;Blac
 9;23;9072426;"Kao, Cheng-Zhe Buddy";870;0.0;*;0.0;1743;"Huang, Vincent";8973327;9
 10;10;8924927;"Verstegen, Jonas";1594;0.0;*;0.0;0;"Chaudhuri, Aarini";9091962;24
 11;25;9094327;"Deijkers, Senn";0;0.0;*;0.0;1548;"Plukkel, Guus";8985273;11
-12;12;9022409;"Pata, Teodor-Stefan";1509;0.0;*;0.0;0;"Galkin, Eric";9054474;26
-13;27;9094811;"Hamelink, Noah";0;0.0;*;0.0;1492;"Zhang, Melody";8871038;13
-14;14;8966474;"Gafurov, Damir";1457;0.0;*;0.0;0;"Marupudi, Maurya Kiran";9100641;28
--;29;9100674;"Satya Penugurti,Advika";0;0.0;1;;;pairing allocated bye
+12;12;9022409;"Pata, Teodor-Stefan";1509;0.0;*;0.0;0;"Hamelink, Noah";9094811;27
+13;28;9100641;"Marupudi, Maurya Kiran";0;0.0;*;0.0;1492;"Zhang, Melody";8871038;13
+14;14;8966474;"Gafurov, Damir";1457;0.0;*;0.0;0;"Satya Penugurti,Advika";9100674;29
+-;26;9054474;"Galkin, Eric";0;0.0;0;;;bye
