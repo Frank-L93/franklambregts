@@ -23,6 +23,7 @@
             <a href="https://adf-foto.com/jalbum/PK%20Jeugd%2028-12-2024/" class="text-black hover:text-red-300">Foto's dag 2 (ABC, E-meisjes)</a>
             <a href="/uploads/2025/album/index.html" class="text-black hover:text-red-300">Foto's dag 3 (E en C-meisjes)</a>
             <a href="https://adf-foto.com/jalbum/PK%20Jeugd%2004-01-2025/" class="text-black hover:text-red-300">Foto's dag 4 (D ronde 1 t/m 4)</a>
+            <a href="https://adf-foto.com/jalbum/PK%20Jeugd%2005-01-2025/" class="text-black hover:text-red-300">Foto's dag 5 (D ronde 5 t/m 7)</a>
         </div>
 
     </div>
