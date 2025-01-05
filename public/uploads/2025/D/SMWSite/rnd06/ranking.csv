@@ -1,29 +1,29 @@
 Rank;Name;Score;Federation;Gender;Rating;TPR;W-We;BH;SB
-1;"Zhang, Xiheng";4.0;NED;M;2000;2040;+0.33;18.0;14.25
-2;"Dinanath, Hrdya";4.0;NED;M;2072;2074;+0.09;17.0;13.0
-3;"Van Heinsbergen, Jonathan";4.0;BEL;M;1761;1769;+0.22;14.0;10.0
-4;"Zhou, Yanyang";4.0;NED;M;1755;1869;+0.67;12.0; 8.75
-5;"Ma, Tim";3.5;NED;M;1861;1880;+0.29;16.0;10.25
-6;"Huang, Vincent";3.5;NED;M;1743;1765;+0.35;14.0; 8.25
-7;"Omnes, Tiago";3.5;NED;M;1829;1860;+0.38;13.0; 7.5
-8;"Lenting, Roan";3.0;NED;M;1881;1920;+0.33;21.5; 9.0
-9;"Verstegen, Jonas";3.0;NED;M;1594;1623;+0.12;16.0; 8.0
-10;"Zhang, Melody";3.0;NED;V;1492;1438;-0.24;13.0; 6.0
-11;"Omnes, Zoë";3.0;NED;V;1417;1434;+0.04;12.5; 5.0
-12;"Plukkel, Guus";3.0;NED;M;1548;1465;-0.29;11.5; 4.0
-13;"Malhan, Kiyaan";3.0;NED;M;1365;1316;-0.21;10.5; 3.5
-14;"Gafurov, Damir";3.0;NED;M;1457;1463;+0.11;10.0; 4.5
-15;"Srivatsa, Kirtin";2.5;NED;M;1754;1704;-0.25;14.5; 5.0
-16;"Methlouthi, Aly";2.0;NED;M;1182;1340;+0.54;13.5; 3.0
-17;"Li, Vince";2.0;NED;M;1333;813;-0.37;13.0; 4.0
-18;"Satya Penugurti,Advika";2.0;NED;V;0 *;1363;1363;13.0; 4.0
-19;"Chaudhuri, Aarini";2.0;NED;V;0;1316;1316;12.0; 3.0
-20;"Marupudi, Maurya Kiran";2.0;NED;M;0;1245;1245;11.5; 2.5
-21;"Pata, Teodor-Stefan";2.0;NED;M;1509;1276;-1.12;11.0; 3.0
-22;"Engels, Devy";2.0;NED;M;1090;1134;+0.01;10.5; 1.5
-23;"Hamelink, Noah";2.0;NED;M;0;1116;1116; 6.0; 1.0
-24;"Kao, Ko-En";1.0;NED;V;1137;737;-0.16;12.5; 2.0
-25;"Jin, Jayden";1.0;NED;M;1090;674;-0.18;11.5; 0.5
-26;"Kao, Cheng-Zhe Buddy";1.0;NED;M;870;379;-0.60;11.5; 0.0
-27;"Deijkers, Senn";1.0;NED;M;0;1014;1014;11.0; 1.0
-28;"Staadegaard, Bas";1.0;NED;M;1087;1122;-0.06; 9.0; 0.5
+1;"Zhang, Xiheng";5.0;NED;M;2000;2066;+0.53;24.5;19.75
+2;"Zhou, Yanyang";5.0;NED;M;1755;1995;+1.54;20.0;15.75
+3;"Omnes, Tiago";4.5;NED;M;1829;1909;+0.76;21.5;14.5
+4;"Ma, Tim";4.5;NED;M;1861;1884;+0.39;21.0;15.25
+5;"Dinanath, Hrdya";4.0;NED;M;2072;1946;-0.78;25.0;15.0
+6;"Verstegen, Jonas";4.0;NED;M;1594;1680;+0.56;21.5;12.5
+7;"Van Heinsbergen, Jonathan";4.0;BEL;M;1761;1732;+0.02;20.0;11.0
+8;"Huang, Vincent";3.5;NED;M;1743;1708;-0.03;21.0; 9.25
+9;"Srivatsa, Kirtin";3.5;NED;M;1754;1713;-0.13;20.5; 9.5
+10;"Gafurov, Damir";3.5;NED;M;1457;1440;-0.02;16.5; 9.25
+11;"Malhan, Kiyaan";3.5;NED;M;1365;1358;-0.08;16.0; 5.25
+12;"Lenting, Roan";3.0;NED;M;1881;1920;+0.33;23.5;11.0
+13;"Zhang, Melody";3.0;NED;V;1492;1444;-0.34;19.5; 7.0
+14;"Methlouthi, Aly";3.0;NED;M;1182;1340;+0.54;18.0; 6.0
+15;"Chaudhuri, Aarini";3.0;NED;V;0;1316;1316;17.5; 7.0
+16;"Plukkel, Guus";3.0;NED;M;1548;1398;-0.73;17.5; 5.0
+17;"Omnes, Zoë";3.0;NED;V;1417;1426;-0.08;17.0; 6.0
+18;"Li, Vince";3.0;NED;M;1333;1313;-0.17;16.0; 6.0
+19;"Pata, Teodor-Stefan";3.0;NED;M;1509;1276;-1.12;16.0; 5.0
+20;"Satya Penugurti,Advika";2.0;NED;V;0 *;1322;1322;19.5; 5.5
+21;"Marupudi, Maurya Kiran";2.0;NED;M;0;1245;1245;16.0; 3.5
+22;"Kao, Ko-En";2.0;NED;V;1137;1262;+0.27;15.5; 3.0
+23;"Jin, Jayden";2.0;NED;M;1090;674;-0.18;14.0; 1.5
+24;"Engels, Devy";2.0;NED;M;1090;1085;-0.19;13.5; 1.5
+25;"Hamelink, Noah";2.0;NED;M;0;1062;1062;13.0; 2.0
+26;"Deijkers, Senn";1.0;NED;M;0;954; 954;14.0; 1.0
+27;"Staadegaard, Bas";1.0;NED;M;1087;1040;-0.49;13.0; 0.5
+28;"Kao, Cheng-Zhe Buddy";1.0;NED;M;870;379;-0.60;12.0; 0.0

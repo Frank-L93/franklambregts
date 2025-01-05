@@ -1,0 +1,16 @@
+Board;WhiteNr;WhiteFideId;WhiteName;WhiteElo;WhitePoints;Result;BlackPoints;BlackElo;BlackName;BlackFideId;BlackNr
+1;2;8939645;"Zhang, Xiheng";2000;5.0;*;4.5;1861;"Ma, Tim";8933991;4
+2;7;8990377;"Zhou, Yanyang";1755;5.0;*;4.5;1829;"Omnes, Tiago";8852580;5
+3;10;8924927;"Verstegen, Jonas";1594;4.0;*;4.0;2072;"Dinanath, Hrdya";8853042;1
+4;9;8973327;"Huang, Vincent";1743;3.5;*;4.0;1761;"Van Heinsbergen, Jonathan";9030736;6
+5;14;8966474;"Gafurov, Damir";1457;3.5;*;3.5;1754;"Srivatsa, Kirtin";8983249;8
+6;11;8985273;"Plukkel, Guus";1548;3.0;*;3.5;1365;"Malhan, Kiyaan";9026237;16
+7;12;9022409;"Pata, Teodor-Stefan";1509;3.0;*;3.0;0;"Chaudhuri, Aarini";9091962;24
+8;15;8961678;"Omnes, Zoë";1417;3.0;*;3.0;1492;"Zhang, Melody";8871038;13
+9;17;9068708;"Li, Vince";1333;3.0;*;3.0;1182;"Methlouthi, Aly";9021133;18
+10;27;9100641;"Marupudi, Maurya Kiran";0;2.0;*;2.0;1137;"Kao, Ko-En";9074351;19
+11;26;9094811;"Hamelink, Noah";0;2.0;*;2.0;1090;"Engels, Devy";8843901;20
+12;28;9100674;"Satya Penugurti,Advika";0;2.0;*;2.0;1090;"Jin, Jayden";8965847;21
+13;25;9094327;"Deijkers, Senn";0;1.0;*;1.0;870;"Kao, Cheng-Zhe Buddy";9072426;23
+-;3;8885184;"Lenting, Roan";1881;3.0;0;;;bye
+-;22;9076243;"Staadegaard, Bas";1087;1.0;1;;;pairing allocated bye
