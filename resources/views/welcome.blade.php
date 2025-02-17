@@ -4,8 +4,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="author" content="Frank Lambregts">
-        <meta name="description" content="Personal website of Frank Lambregts, 31 years old, SAP Consultant and Chess Player with an interest in web design and processes">
-        <meta name="keywords" content="Frank, Lambregts, Frank Lambregts, SAP, Consultant, PHP, Laravel, Chess, SD, Finance, SAP Architect">
+        <meta name="description" content="Personal website of Frank Lambregts, 32 years old, Information Analist and Chess Player with an interest in web design and processes">
+        <meta name="keywords" content="Frank, Lambregts, Frank Lambregts, Informatie, Analist, Oracle, SAP, Consultant, PHP, Laravel, Chess, SD, Finance, SAP Architect">
         <title>@yield('title', 'Home') - Frank Lambregts</title>
       @vite(['resources/css/app.css', 'resources/js/app.js'])
       @fluxStyles
